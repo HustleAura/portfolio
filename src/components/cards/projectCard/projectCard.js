@@ -4,10 +4,10 @@ import ProfileIcons from "../../icons/profileIcon";
 
 function ProjectCards({ title, description, projectLink }) {
   return (
-    <a href={projectLink} className="card-link">
-      <div className="card">
-        <h3 className="card-title">{title}</h3>
-        <p className="card-description">{description}</p>
+    <a href={projectLink} className="project-card-link">
+      <div className="project-card">
+        <h3 className="project-card-title">{title}</h3>
+        <p className="project-card-description">{description}</p>
         <ProfileIcons imagePath={githubIconPath}></ProfileIcons>
       </div>
     </a>

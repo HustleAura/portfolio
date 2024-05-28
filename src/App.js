@@ -1,12 +1,10 @@
 import "./App.css";
-import Button from "./components/button/button";
-import ProjectSection from "./sections/projectSection";
+import ExperienceSection from "./sections/experienceSection/experienceSection";
 
 function App() {
   return (
     <div className="App">
-      <Button text="Google" hyperlink="https://www.google.com/"></Button>
-      <ProjectSection></ProjectSection>
+      <ExperienceSection></ExperienceSection>
     </div>
   );
 }
