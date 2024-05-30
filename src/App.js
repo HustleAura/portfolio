@@ -1,10 +1,10 @@
 import "./App.css";
-import ExperienceSection from "./sections/experienceSection/experienceSection";
+import ServicesSection from "./sections/servicesSection";
 
 function App() {
   return (
     <div className="App">
-      <ExperienceSection></ExperienceSection>
+      <ServicesSection></ServicesSection>
     </div>
   );
 }
